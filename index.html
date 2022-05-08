@@ -5,11 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./Assets/CSS/style.css">
 </head>
 <body>
-  <header>
+  <header class="heading">
     <nav>
-     <ul>
+     <ul class="navlist">
        <li><a href="#">Home</a></li>
        <li><a href="#">About</a></li>
        <li><a href="#">Movers</a></li>
@@ -18,7 +19,7 @@
        <button><a href="#">Log in</a></button>
      </ul>
     </nav>
-    <p>
+    <p id="p-one">
      Change is inevitable but<br>
      tasking. Find your<br>
      realiable partner
@@ -29,9 +30,12 @@
     </p>
   </header>
 
-  <section>
-    <img src="./Assets/images/moving2.png"> 
-    <div>
+  <section> 
+    <div class="container">
+    <div id="container-img"> 
+    <img id="image2" src="./Assets/images/moving2.png"> 
+    </div>
+    <div class="container-p">
       <h2>Cut the Hustle</h2>
       <p>
        In this current tough economic<br>
@@ -41,10 +45,12 @@
       </p>
       <button><a href="#">Log in</a></button>
     </div>
+    </div>
   </section>
   
-  <section>
+  <section class="section-movers">
     <h2>Our Top Movers</h2>
+    <div class="container-movers-one">
     <div>
       <img src="./Assets/images/ehem3.png">
       <h3>A+ Movers</h3>
@@ -68,7 +74,9 @@
       <span>2</span>
       <span>2</span>
     </div>
-    
+    </div>
+
+    <div class="container-movers-two">
     <div>
       <img src="./Assets/images/chapchap6.png">
       <h3>Movers Chapchap</h3>
@@ -92,38 +100,42 @@
       <span>2</span>
       <span>2</span>
     </div>
+    </div>
 
   </section>
 
   <footer>
     <h2>Move at a tap of a button</h2>
+    <div class="footerclass">
     <div>
       <span>icon</span>
       <span>icon</span>
       <span>icon</span>
     </div>
+          
     <div>
-      <span>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </span>
-      <span>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </span>
-      <span>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-      </span>
+      <h3>ColumnHeading</h3>
+      <p>Link goes here</p>
+      <p>Link goes here</p>
+      <p>Link goes here</p>
+      <p>Link goes here</p>
+    </div>
+     <div>
+        <h3>ColumnHeading</h3>
+          <p>Link goes here</p>
+          <p>Link goes here</p>
+          <p>Link goes here</p>
+          <p>Link goes here</p>
+        </ul>
+    </div>
+      <div>
+        <h3>ColumnHeading</h3>
+        <p>Link goes here</p>
+        <p>Link goes here</p>
+        <p>Link goes here</p>
+        <p>Link goes here</p>
+      </div>
+        
     </div>
   </footer>
 

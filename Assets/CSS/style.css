@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  font-family: 'Poppins', 'Actor', 'Adamina';
+}
+header{
+  background-image: url('../images/moving1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.navlist{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+.heading p{
+  padding: 50px;
+}
+#p-one{
+  color: #a89e32;
+}
+
+.section-movers{
+  margin: 0 auto;
+  background-color: lightgrey;
+}
+.container{
+  display: flex;
+  margin-top: 40px;
+
+}
+.container>*{
+  flex: 1;
+
+}
+#image2{
+  width: 60%;
+}
+
+.container-movers-one, .containers-movers-two{
+display: flex;
+}
+.container-movers-two{
+  display: flex;
+}
+.container-movers-one>div>img,
+.container-movers-two>div>img
+{
+  width: 70%;
+}
+footer{
+  background-color: black;
+  color: white;
+  font-size: 8px;
+  max-height: 600px;
+}
+.footerclass{
+  display: flex;
+  gap: 50px;
+}
